@@ -23,7 +23,7 @@ const db = mongoose.connection;
 
 app.get("/", (req, res) => {
 	res.status(200).send(`
-    <h1>Hello from Memeit API ^.^</h1>
+    <h1>Hello from Dinopedia API ^.^</h1>
     <pre>
             ______
           &lt; Moo! &gt;
