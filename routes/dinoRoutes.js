@@ -9,6 +9,7 @@ const {
 
 const router = express.Router();
 
+// Paths for individual requests
 router.get("/", getAllDinos);
 router.get("/:id", getOneDino);
 router.post("/", createDino);
